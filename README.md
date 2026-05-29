@@ -1,5 +1,9 @@
+# MIS System - Panel de Control Gerencial (TPS)
 
-# MIS: Dashboard Gerencial y Visualización de KPIs
+Para ejecutar el Dashboard interactivo con los 8 KPIs segmentados de forma correcta y sin errores de carga, haz clic en el siguiente botón:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Alexd17d/MIS/blob/main/Rediseño_del_KPIs.ipynb)
+
 
 Este repositorio contiene la capa del **Sistema de Información Gerencial (MIS)** del proyecto de Matriculación Vehicular. Su objetivo principal es consumir los datos atómicos y transaccionales generados por el **TPS (Transaction Processing System)** desarrollado en C, consolidarlos en un repositorio común y transformarlos en reportes estructurados (KPIs) para el apoyo a la toma de decisiones estratégicas.
 
@@ -51,7 +55,5 @@ python reporte_mis.py
 
 ```
 
-*Nota: La consulta y renderizado de gráficos tarda menos de 0.3 segundos gracias al motor optimizado de vectores indexados de Pandas, cumpliendo con el atributo de valor de **Oportunidad (Timeliness)**.*
 
-```
 
